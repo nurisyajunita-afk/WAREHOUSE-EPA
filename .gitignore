@@ -1,0 +1,15 @@
+# Ignore local environment & system files
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+
+# Node/Composer (if ever added later)
+node_modules/
+vendor/
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
